@@ -1,0 +1,12 @@
+
+
+ PNR no:!!!No PNR as the Ticket has been Cancelled!!!	 Status:Cancelled 
+ Passenger Name: jasu
+ Passenger Age: 15
+ Passenger Gender: M
+ Train name: Duronto Express
+ Seat Number: 100
+ Class is: AC first class
+ Day is: 07/01/2021
+ Arrival is: Kasaragod Railway Station
+ Depatureis: Thiruvananthapuram Central Station

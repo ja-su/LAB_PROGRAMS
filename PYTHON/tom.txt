@@ -1,0 +1,22 @@
+
+ PNR no:VAXD8LCMI9	Status: confirmed 
+ Passenger Name: cathy
+ Passenger Age: 15
+ Passenger Gender: F
+ Train name: Duronto Express
+ Seat Number: 100
+ Class is: AC first class
+ Day is: 08/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: Thiruvananthapuram Central Station
+
+ PNR no:45H6SY6SZG	Status: confirmed 
+ Passenger Name: elle
+ Passenger Age: 25
+ Passenger Gender: F
+ Train name: Duronto Express
+ Seat Number: 99
+ Class is: AC first class
+ Day is: 08/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: Thiruvananthapuram Central Station

@@ -1,0 +1,22 @@
+
+ PNR no:GR9C1WWAOB	Status: confirmed 
+ Passenger Name: john1
+ Passenger Age: 15
+ Passenger Gender: M
+ Train name: Duronto Express
+ Seat Number: 98
+ Class is: AC first class
+ Day is: 08/01/2021
+ Arrival is: Ernakulam Junction South
+ Depature is: Thiruvananthapuram Central Station
+
+ PNR no:GBHBB81U18	Status: confirmed 
+ Passenger Name: john2
+ Passenger Age: 35
+ Passenger Gender: M
+ Train name: Duronto Express
+ Seat Number: 97
+ Class is: AC first class
+ Day is: 08/01/2021
+ Arrival is: Ernakulam Junction South
+ Depature is: Thiruvananthapuram Central Station

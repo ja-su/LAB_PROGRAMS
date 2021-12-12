@@ -1,0 +1,37 @@
+
+ PNR no:D0MP5BMKMW	Status: confirmed 
+ Passenger Name: babu3
+ Passenger Age: 15
+ Passenger Gender: M
+ Train name: Duronto Express
+ Seat Number: 200
+ Class is: AC Second Class
+ Day is: 07/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: 
+User name: babu
+Thiruvananthapuram Central Station
+User name: babu
+ PNR no:3REKXCA3PR	Status: confirmed 
+ Passenger Name: babu1
+ Passenger Age: 15
+ Passenger Gender: M
+ Train name: Duronto Express
+ Seat Number: 100
+ Class is: AC first class
+ Day is: 07/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: 
+Thiruvananthapuram Central Station
+User name: babu
+ PNR no:0T6HXBUVLG	Status: confirmed 
+ Passenger Name: babu2
+ Passenger Age: 18
+ Passenger Gender: M
+ Train name: Duronto Express
+ Seat Number: 99
+ Class is: AC first class
+ Day is: 07/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: 
+Thiruvananthapuram Central Station

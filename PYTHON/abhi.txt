@@ -1,0 +1,13 @@
+
+User name: jasu
+ PNR no:YP34WZ55RW	Status: confirmed 
+ Passenger Name: dog
+ Passenger Age: 158
+ Passenger Gender: M
+ Train name: Maveli Express
+ Seat Number: 100
+ Class is: AC first class
+ Day is: 07/01/2021
+ Arrival is: Kasaragod Railway Station
+ Depature is: 
+Thrissur Railway Station

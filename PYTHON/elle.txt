@@ -1,0 +1,25 @@
+
+User name: elle
+ PNR no:!!!No PNR as the Ticket has been Cancelled!!!	 Status:Cancelled 
+ Passenger Name: elle1
+ Passenger Age: 15
+ Passenger Gender: F
+ Train name: Duronto Express
+ Seat Number: 100
+ Class is: AC first class
+ Day is: 07/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: 
+Thiruvananthapuram Central Station
+User name: elle
+ PNR no:!!!No PNR as the Ticket has been Cancelled!!!	 Status:Cancelled 
+ Passenger Name: elle2
+ Passenger Age: 18
+ Passenger Gender: F
+ Train name: Duronto Express
+ Seat Number: 99
+ Class is: AC first class
+ Day is: 07/01/2021
+ Arrival is: Thrissur Railway Station
+ Depature is: 
+Thiruvananthapuram Central Station
