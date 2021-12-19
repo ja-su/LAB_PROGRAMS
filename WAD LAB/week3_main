@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<title>Experiment 3</title>
+
+</head>
+
+<body>
+
+<header>
+<img src = "https://deitel.com/wp-content/uploads/2020/01/deitel-logo-square.jpg"alt="deitel buzz" width="200" height="200">
+<h1>Welcome to the Deitel Buzz Online</h1>
+<h1>2012-01-17</h1>
+<h4>Recent Publications</h4>
+<nav>
+	<ul>
+		<li><a href="https://www.google.com/url?q=https://www.wikipedia.org/&amp;source=gmail-html&amp;ust=1639642671823000&amp;usg=AOvVaw01Lo_acqYEVV_ZTAHLS5bO" target="_blank">Internet &amp; World Wide Web How to Program 5/e</a></li>
+		<li><a href="https://www.google.com/url?q=https://www.wikipedia.org/&amp;source=gmail-html&amp;ust=1639642671823000&amp;usg=AOvVaw01Lo_acqYEVV_ZTAHLS5bO" target="_blank">Android for Programmers:An APP-Driven Approach</a></li>
+		<li><a href="https://www.google.com/url?q=https://www.wikipedia.org/&amp;source=gmail-html&amp;ust=1639642671823000&amp;usg=AOvVaw01Lo_acqYEVV_ZTAHLS5bO" target="_blank">iPhone for Programmers:An App-Driven Approach</a></li>
+		<li><a href="https://www.google.com/url?q=https://www.wikipedia.org/&amp;source=gmail-html&amp;ust=1639642671823000&amp;usg=AOvVaw01Lo_acqYEVV_ZTAHLS5bO" target="_blank">Java How to Program 9/e</a></li>
+		<li><a href="https://deitel.com/c-how-to-program-8-e/" target="_blank">C++ How to Program,8/e</a></li>
+		<li><a href="https://www.pearson.com/uk/educators/higher-education-educators/program/Deitel-Visual-C-2010-How-to-Program-International-Edition-4th-Edition/PGM1011597.html" target="_blank">Visual C# 2010,How to Program, 4/e</a></li>
+		<li><a href="https://www.vbtutor.net/index.php/visual-basic-2012-tutorial/" target="_blank">Visual Basic 2012,How to Program</a></li>
+	</ul>
+</nav>
+</header>  
+<section>
+	<h1>How to program Series Books</h1>
+	<h2><em>Java How to program,9/e</em></h2>
+	<figure>
+		<img src="https://www.pearsonhighered.com/assets/bigcovers/0/1/3/2/0132940949.jpg" alt="Java,How to Program 9/e" style="width:10%">
+		<figcaption>Java,How to Program 9/e cover</figcaption>
+</section>
+
+<header>
+<a href="https://books-library.net/files/download-pdf-ebooks.org-1489929113Bv7P9.pdf">From: Java,How to Program 9/e</a>
+</header>
+
+<p>Features include:</p>
+<ul>
+	<li>Rich coverage of fundamentals, including two chapeters on control statemetns.</li>
+	<li>Focus on real-world examples.</li>
+	<li>Making a Difference exercises set</li>
+	<li>Early introductionm to classes, objects,methods and strings</li>
+	<li>Files, streams and object serialization</li>
+	<li>Optional modular sections on language and library features of the new Java SE 7</li>
+	<li>Other topics include:Recursion, searching,sorting, generic collections,generics,data structurs,applets, multimeadia, multithreading, databases/JDBC,web-app development,web services and an optional ATM Object-Oriented Design case study</li>
+</ul>
+
+<details>
+	<summary>Recent Edition Testimonials</summary>
+	Java is a high level, object-oriented, platform independent language.
+	Java, unlike some languages before it allows for the use of words and commands instead of just symbols and numbers. 
+	Java also allows for the creation of advanced data types called objects which represent real world things like a chair or a computer 
+	where you can set the attributes of these objects and things they do.
+	Java is very flexible - it can be used to develop software as well as applets (small programs that run on webpages). 
+	But the flexibility doesn't end there because you can run the same Java programs on various operating systems without 
+	having to rewrite the code (unlike some other languages such as C and C++) thanks to the Java run-time environment which interprets Java code and tells the 
+	operating system what to do.
+</details>
+<br>
+<br>
+<aside>
+<h4>Java</h4>
+<p>There is no Full form of JAVA as such. JAVA is a general-purpose programming language that is object-oriented, class-based, and designed to have as few implementation dependencies as possible.</p>
+</aside>
+
+<section>
+	<h1>Results from out Facebook Survey<h1>
+	<p>Here are the results of the Facebook Survey</p>
+	<p style="font-size:15px">If you were a non programmer about to learn java for the first time, would you prefer a course that taught java in the context of Android app development?:</p>
+	<br>
+	
+	<label for="fb_survey">Survey Result</label>
+	<br>
+	<label>0</label>
+	<meter id="fb_survey" value="14" min="0" max="54"></meter>
+	<label>54</label>
+	<br>
+</section>
+
+<footer>
+<h5>
+1992-2012 by Deitel & Association,Inc,All Rights Reserved.<br>
+Contact: <a href="https://deitel.com/" target="_blank">deitel@deitel.com</a></h5>
+</footer>
+
+
+
+
+
+
+</body>
+</html>
