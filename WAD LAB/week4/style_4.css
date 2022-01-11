@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+
+header {
+	display:flex;
+	justify-content:space-around;
+	background-color:#ffc266;
+}
+
+
+.logo {
+	order:1;
+	font-family: 'Source Serif 4', sans-serif;
+	font-size:60px;
+}
+
+.nav {
+	order:2;
+	list-style-type: none;
+}
+
+.search {
+	order:1;
+	padding:10px;
+}
+
+.search input {
+	padding:9px;
+}
+
+.search a img{
+	width:20px;
+	
+}
+
+form {
+	order:1;
+	padding:20px;
+}
+
+ul.bc {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.bc li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.bc li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.bc li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.bc li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+.container {
+  display:flex;
+}
+
+.container_item img{
+  width:50vw;
+  height:50vw;
+  object-fit: cover;
+}
