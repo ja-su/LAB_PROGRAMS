@@ -20,7 +20,7 @@ header {
 
 .search {
 	order:1;
-	padding:10px;
+	padding:20px;
 }
 
 .search input {
@@ -37,10 +37,17 @@ form {
 	padding:20px;
 }
 
+#drop{
+	width:150px;
+	padding:8px;
+}
+
 ul.bc {
     padding: 10px 16px;
     list-style: none;
     background-color: #eee;
+    position: sticky;
+    top: 0;
   }
   ul.bc li {
     display: inline;
@@ -60,12 +67,32 @@ ul.bc {
     text-decoration: underline;
   }
 
-.container {
-  display:flex;
+table,tr{
+  display: flex;
+  gap: 110px;
 }
 
-.container_item img{
-  width:50vw;
-  height:50vw;
-  object-fit: cover;
+th {
+  text-align: center;
+}
+
+
+#footwear img {
+  width: 45vw;
+  height: 40vw;
+}
+
+#watches img {
+  width: 45vw;
+  height: 40vw;
+}
+
+#skin_products img {
+  width: 45vw;
+  height: 40vw;
+}
+
+#gifts img {
+  width: 45vw;
+  height: 40vw;
 }
