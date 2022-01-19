@@ -1,44 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
-
 header {
-	display:flex;
-	justify-content:space-around;
-	background-color:#ffc266;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffc266;
 }
 
-
 .logo {
-	order:1;
-	font-family: 'Source Serif 4', sans-serif;
-	font-size:60px;
+    order: 1;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 60px;
 }
 
 .nav {
-	order:2;
-	list-style-type: none;
+    order: 2;
+    list-style-type: none;
 }
 
 .search {
-	order:1;
-	padding:20px;
+    order: 1;
+    padding: 20px;
 }
 
 .search input {
-	padding:9px;
+    padding: 9px;
 }
 
-.search a img{
-	width:20px;
-	
+.search a img {
+    width: 20px;
 }
 
 form {
-	order:1;
-	padding:20px;
+    order: 1;
+    padding: 20px;
 }
-#drop{
-	width:150px;
-	padding:8px;
+
+#drop {
+    width: 150px;
+    padding: 8px;
 }
 
 ul.bc {
@@ -47,64 +45,67 @@ ul.bc {
     background-color: #eee;
     position: sticky;
     top: 0;
-  }
-  ul.bc li {
+}
+
+ul.bc li {
     display: inline;
     font-size: 18px;
-  }
-  ul.bc li+li:before {
+}
+
+ul.bc li+li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
-  }
-  ul.bc li a {
+}
+
+ul.bc li a {
     color: #0275d8;
     text-decoration: none;
-  }
-  ul.bc li a:hover {
+}
+
+ul.bc li a:hover {
     color: #01447e;
     text-decoration: underline;
-  }
+}
 
-table,tr{
-  display: flex;
-  gap: 110px;
+table,
+tr {
+    display: flex;
+    gap: 110px;
 }
 
 th {
-  text-align: center;
+    text-align: center;
 }
 
-
 #footwear img {
-  width: 45vw;
-  height: 40vw;
+    width: 45vw;
+    height: 40vw;
 }
 
 #watches img {
-  width: 45vw;
-  height: 40vw;
+    width: 45vw;
+    height: 40vw;
 }
 
 #skin_products img {
-  width: 45vw;
-  height: 40vw;
+    width: 45vw;
+    height: 40vw;
 }
 
 #gifts img {
-  width: 45vw;
-  height: 40vw;
+    width: 45vw;
+    height: 40vw;
 }
 
 @media screen and (max-width: 1000px) {
-	header{
-		flex-direction: column;
-	}
-	.logo {
-		text-align: center;
-	}
-  .container{
-    flex-direction: column;
-  }
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        text-align: center;
+    }
+    .container {
+        flex-direction: column;
+    }
 }
-	
