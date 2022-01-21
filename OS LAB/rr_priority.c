@@ -22,8 +22,6 @@ void display()
  int i;
  printf("Process ID\tArrival Time\tBurst Time\tWaiting Time\t\tTurnaround Time\n");
  for(i = 0; i < n; i++)	printf("%d\t\t%d\t\t%d\t\t%d\t\t\t%d\n", p[i].pid, p[i].at, p[i].bt, p[i].wt, p[i].tat);
- printf("\nAverage Waiting Time: %f", avwt);
- printf("\nAverage Turnaround Time: %f\n", avtat);
 }
 
 void swap(int i, int j)
@@ -109,13 +107,11 @@ void rr()
    p[first].ct = clk;
    p[first].tat = p[first].ct - p[first].at;
    p[first].wt = p[first].tat - p[first].bt;
-   avtat += p[first].tat;
-   avwt += p[first].wt;
+
   }
 }
 
-  avtat /= n;
-  avwt /= n;
+
 
   pidSort();
   printf("\nRound Robin:\n");
@@ -191,12 +187,10 @@ void prior()
 
  swap(loc, i);
 
- avtat+= p[i].tat;
- avwt+= p[i].wt;
+
 }
 
- avtat /= n;
- avwt /= n;
+ 
 
  pidSort();
  printf("\nPriority Scheduling:\n");
