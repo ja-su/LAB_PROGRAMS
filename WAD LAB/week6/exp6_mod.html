@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exp6_mod.css">
+    <title>Shopping website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
+</head>
+
+<body>
+    <header class="flex-wrap">
+        <div class="logo col-sm-4 col-md-6 col-lg-3 justify-content-evenly order-1">THE SHOP</div>
+
+        <div class="search col-sm-4 col-md-3 col-lg-4 justify-content-evenly order-2">
+            <label for="search"></label>
+            <input id="search" placeholder="Search Products">
+            <a href="#"><img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png" /></a>
+        </div>
+        <div class="drop col-sm-4 col-md-3 col-lg-2 justify-content-evenly order-3">
+            <form>
+                <div class="drop"></div>
+                <label for="dropdown"></label>
+                <select name="dropdown" id="drop">
+				<option value="profile">Profile</option>
+				<option value="profile">Your Orders</option>
+				<option value="profile">Wishlist</option>
+			</select>
+            </form>
+        </div>
+    </header>
+
+    <body>
+        <ul class="bc list-in">
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Accessories</a></li>
+        </ul>
+        <div class="container-fluid">
+            <table style="width:100%">
+                <tr>
+                    <th id="footwear"><img src="https://media.istockphoto.com/photos/young-man-shopping-shoes-picture-id1292261872?b=1&k=20&m=1292261872&s=170667a&w=0&h=AA5F-5LPlJJjqpUqB5UjCuYhk5YnNEEcEAqa5Ya4lEA=" alt="footwear" class="img-fluid">
+                        <p class="text-center">FOOTWEAR</p>
+                    </th>
+                    <th id="watches"><img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="watches" class="img-fluid">
+                        <p class="text-center">WATCHES</p>
+                    </th>
+                </tr>
+                <tr>
+                    <th id="skin_products"><img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="skin products" class="img-fluid">
+                        <p class="text-center">SKIN PRODUCTS</p>
+                    </th>
+                    <th id="gifts"><img src="https://media.istockphoto.com/photos/open-gift-box-minimal-3d-design-on-color-gradient-background-picture-id1271279857?b=1&k=20&m=1271279857&s=170667a&w=0&h=8eXVzahqJYAuCUQr-6KZVslA5msBleOhyZIsNy4bEDE=" alt="gifts" class="img-fluid">
+                        <p class="text-center">GIFTS</p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    </body>
+
+</html>
