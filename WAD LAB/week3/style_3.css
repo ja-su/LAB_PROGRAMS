@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:wght@300&family=Open+Sans:wdth,wght@91.4,500&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -6,54 +7,64 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
+    background-color: #ffc6b3;
+    padding: 10px;
 }
 
 .logo {
-    width: 20%;
-    padding: 30px;
+    padding: 10px;
     border: 2px solid black;
     margin: 5px;
-    text-align: center;
-    font-size: 30px;
+}
+
+.logo img {
+    width: 8vw;
+    height: 8vw;
 }
 
 .pnav {
     padding: 0;
     display: flex;
     width: 60%;
-    justify-content: space-between;
-    list-style-type: none; 
+    list-style-type: none;
     color: white;
 }
 
 .pnav li {
-    width: 30%;
+    width: 40%;
     padding: 1em 2em;
     margin: 0.5em 1em;
-    background-color: black;
-
+    background-color: #ff6666;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
 }
 
 .search {
     width: 20%;
-    margin:10px;
-    font-size: 15px;
+    margin: 40px;
+    font-size: 13px;
+    background-color: #ff6666;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
 }
 
 hr {
-    border: 2px dotted black; 
+    border: 2px dotted black;
 }
 
 .main {
-    width:100%;
-    display: flex;  
+    width: 100%;
+    display: flex;
+    background-color: #ffc6b3;
 }
 
-
 .l_side {
-    width:20%;
-    background-color: grey;
+    width: 20%;
+    background-color: #666666;
     text-align: center;
 }
 
@@ -63,15 +74,18 @@ hr {
     margin: 2em;
 }
 
+.rado {
+    width: 10vw;
+}
+
 .content {
     width: 60%;
     margin: 1em 2em;
-
 }
 
 .r_side {
-    width:20%;
-    background-color: grey;
+    width: 20%;
+    background-color: #666666;
 }
 
 .r_side_child {
@@ -81,12 +95,16 @@ hr {
 
 .r_side_box {
     background-color: white;
-    padding: 1em 2em;   
-    margin: 1em 0em;  
+    padding: 1em 2em;
+    margin: 1em 0em;
 }
 
-footer ul{
-    list-style-type: none; 
+footer {
+    background-color: black;
+}
+
+footer ul {
+    list-style-type: none;
     display: flex;
     padding: 1em 2em;
     width: 100%;
@@ -95,5 +113,15 @@ footer ul{
 
 .footer_element {
     padding: 0px 2em;
+}
 
+.footer_element a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #F5F5DC;
+}
+
+.footer_element a:hover {
+    text-decoration: underline;
 }
